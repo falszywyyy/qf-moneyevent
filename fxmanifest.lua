@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 author 'QF DevTeam'
 
-shared_script '@es_extended/imports.lua'
+shared_scripts {'@es_extended/imports.lua', 'config.lua'}
 
 client_scripts {
     "client.lua",
